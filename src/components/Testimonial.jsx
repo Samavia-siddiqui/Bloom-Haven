@@ -18,7 +18,7 @@ const reviews = [
 const Testimonials = () => {
   return (
     <div className="py-16 px-6 bg-pink-100">
-      
+
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">
         What Our Customers Say
       </h2>
@@ -26,7 +26,7 @@ const Testimonials = () => {
       <div className="grid md:grid-cols-3 gap-8">
         {reviews.map((rev, i) => (
           <div key={i} className="card bg-base-100 shadow-lg p-6 rounded-2xl">
-            
+
             <p className="text-gray-800 italic">
               “{rev.text}”
             </p>
